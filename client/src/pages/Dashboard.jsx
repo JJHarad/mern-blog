@@ -1,8 +1,14 @@
 import React from 'react'
+import Header from '../components/Header'
 
 export default function Dashboard() 
 {
   return (
-    <div>Dashboard</div>
+    <div>
+       <Header/>
+      Dashboard
+     
+    </div>
+    
   )
 }
